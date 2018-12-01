@@ -17,8 +17,7 @@ def hello(name):
 
 @app.route("/omikuji")
 def omikuji():
-    omikuji_list = ["大吉", "中吉", "凶"]
-    result = random.choice(omikuji_list)
+    result = random.choice(["大吉", "中吉", "凶"])
     return render_template("omikuji.html", result=result)
 
 
