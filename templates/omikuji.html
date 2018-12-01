@@ -7,5 +7,17 @@
 <body>
 <h1>今日の運勢は!! {{ result }} </h1>
 
+{% if result == "大吉" %}
+<p>やったね！</p>
+{% endif %}
+
+{% if result == "中吉" %}
+<p>まあまあ！</p>
+{% endif %}
+
+{% if result == "凶" %}
+<p>残念！</p>
+{% endif %}
+
 </body>
 </html>
