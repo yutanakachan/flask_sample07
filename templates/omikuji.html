@@ -5,7 +5,10 @@
     <title>omikuji</title>
 </head>
 <body>
-<h1>今日の運勢は!! {{ result }} </h1>
+<center>
+    <img src="https://lh5.googleusercontent.com/-2RLhTUD_4JA/UyWbZ8OAl_I/AAAAAAAAtZE/s5lZXmn9XJk/s2048/DSC09962.JPG"
+         height=480, width=640>
+    <h1>今日の運勢は!! {{ result }} </h1>
 
 {% if result == "大吉" %}
 <p>やったね！</p>
@@ -18,6 +21,7 @@
 {% if result == "凶" %}
 <p>残念！</p>
 {% endif %}
+</center>
 
 </body>
 </html>
